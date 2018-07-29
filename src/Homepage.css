@@ -1,0 +1,27 @@
+.Homepage {
+  text-align: center;
+}
+
+.Homepage-title {
+  font-size: 1.5em;
+}
+
+.Homepage-logo {
+  height: 80px;
+}
+
+.Homepage-header {
+  background-color: #222;
+  height: 80px;
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+
+.Homepage-footer {
+  font-size: medium;
+}
+.Homepage-pages {
+  padding: 20px;
+  font-size: large;
+}
