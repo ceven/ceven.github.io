@@ -2,6 +2,7 @@
   "name": "ceven-github-pages",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://ceven.github.io",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
