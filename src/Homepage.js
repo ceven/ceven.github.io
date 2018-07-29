@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 // import logo from './logo.svg';
-import './Homepage.css';
+import "./Homepage.css";
 
 class Homepage extends Component {
   render() {
@@ -11,11 +11,13 @@ class Homepage extends Component {
           <h1 className="Homepage-title">Caroline's Pages</h1>
         </header>
         <p className="Homepage-pages">
-            <a href="https://ceven.github.io/stamp-duty-calculator/">Stamp Duty Calculator</a>
+          <a href="https://ceven.github.io/stamp-duty-calculator/">
+            Stamp Duty Calculator
+          </a>
         </p>
-          <footer className="Homepage-footer">
-              <a href="https://github.com/ceven">My Github</a>
-          </footer>
+        <footer className="Homepage-footer">
+          <a href="https://github.com/ceven">My Github</a>
+        </footer>
       </div>
     );
   }
