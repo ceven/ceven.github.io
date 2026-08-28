@@ -1,0 +1,67 @@
+* {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.Homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.Homepage-header {
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* logo | centered title | spacer */
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    padding: 0;
+
+    background-color: #222;
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.Homepage-body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    
+}
+
+.Homepage-logo {
+    height: 6rem;
+    grid-column: 1;
+}
+
+.Homepage-title {
+    grid-column: 2;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.Homepage-footer {
+  font-size: 1rem;
+  margin: 1rem;
+}
+.Homepage-pages {
+  margin: 0.25rem;
+}
+
+.stampd{
+    color: rgb(162, 38, 38);
+}
+
+.stravad{
+    color: rgb(255, 166, 0);
+}
