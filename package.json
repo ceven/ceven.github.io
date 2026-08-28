@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ceven.github.io/",
+  "homepage": "https://ceven.github.io",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
